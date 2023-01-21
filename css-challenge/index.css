@@ -1,0 +1,560 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.content{
+        
+    align-items: center; 
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.info{
+    /* display: flex;
+    flex-direction: column; */
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./images/hero.png); */
+    background-image: url(./images/hero.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.navb{
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+    align-items: center;  
+    
+}
+.toright{
+    display: flex;  
+    gap: 50px;
+}
+.tocenter{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;  
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    /* color: white; */
+}
+.toright button{
+    background-color: rgba(35,166,240,255);
+    padding: 8px;
+    width: 180px;
+    border-radius: 10px;
+    size: 37px;
+    gap:40px;
+    width: 200px;
+}
+
+.info1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+.info1 h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+.info1 p{    
+    text-align: center;
+    color: white;
+    
+}
+.button1{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.button1 button{
+    padding: 8px;
+    size: 37px;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 200px;
+}
+.quote{
+    background-color: rgba(35,166,240,255);
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    top: 13.0%;
+    position: absolute;   
+}
+.peace, .life{
+    padding: 2%;
+    height: 28vh; 
+    background-color: white;   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+.satisfaction{
+    padding: 2%;
+    height: 28vh;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: blue;
+    color: white;     
+}
+
+.cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin-top: 20%;
+
+}
+.peace1, .life1, .satisfaction1{
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)    
+} 
+
+.greybg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: rgba(250,250,250,255)
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    width: 90%;   
+}
+.industry{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+}
+.industry h2{
+    font-size: 40px;
+    text-align: center;
+}
+.industry P{
+    text-align: center;
+}
+
+.review1, .review2, .review3{
+    /* width: fit-content; */
+    /* width:40%; */
+    /* height: 99%; */
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)    
+}
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    gap: 98px;
+    justify-content: space-between;
+    align-items: center; 
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    background: linear-gradient(270deg, #cf1588 0%, rgba(4, 70,136,255) 100%);
+    margin-top: 70px;
+    width:90%;
+    height:100px;
+    background-color: purple;
+}
+.subscribe h2{
+    margin-left: 5%;
+}
+.sub{
+    display: flex;
+    margin-right: 5%;
+    height:30px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 40px;
+}
+.pricing P{
+    text-align: center;
+}
+    
+.packages{
+    display: flex;
+    flex-direction: row;
+    /* width:70%; */
+    gap:1px;
+    /* height: 400px; */
+    margin-bottom: 70px;
+}
+    
+.premium{
+    border-radius: 7px;
+    padding: 2em;
+    border: 2px solid darkcyan;
+
+}
+
+.premium li{
+    padding: 7px;
+    list-style: none;
+}
+.standard{
+    padding: 3em;
+    height: 450px;
+    border-radius: 7px;
+    border: 2px solid darkcyan;
+    color: whitesmoke;
+}
+
+.standard li{
+    padding: 7px;
+    list-style: none;
+}
+.try{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35,166,240,255);
+    width: 90%;
+    height:3em;
+    size: 38px;
+    margin-top: 20px;
+    border: 0.4em;
+    border-radius: 7px;
+}
+.try h6{
+    color: white;
+    font-size: 1em;
+    align-items: center;
+}
+.bbranches{
+    position:relative;
+    margin-bottom: 500px;
+}
+.branches{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    padding: 5%;
+    background-color: rgba(37,43,66,255);
+}
+.standard{
+    background-color: rgba(37,43,66,255);
+}
+.standard h3, .standard h5, .standard h6, .standard li {
+    color: whitesmoke;
+}
+.branches img{
+    background-color: none;
+}
+.para p, .para h1{
+color: white;
+}
+
+.appointment{
+    display: flex;
+    align-items: center;
+    height:530px;
+    background-color:white;
+    margin-left: 28%;
+    width: 600px;
+    top:88%;
+    position: absolute; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)   
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 20px;
+    position: relative;
+    justify-content: center;
+
+}
+.information h4{
+    text-align: center;
+}
+.lastlast{
+    display: flex;
+    justify-content:space-evenly;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* width: 60em; */
+    margin-bottom: 70px;
+}
+.contact{
+    align-items: right;
+    background-color: rgba(35,166,240,255);
+    border:4em;
+    width: 10em;
+    height: 4em;
+}
+.consult{
+    align-items: left;
+}
+.consult h5{
+    font-size: 1.7em;
+}
+
+.contact h6{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.moreinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.moreinfo li{
+    list-style: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: rgba(250,250,250,255);
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+ 
+@media (min-width:769px) and (max-width:1023px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    .toright button{
+        width:80px;
+     }
+    .cards{
+        gap: 16px;
+    }
+    .cards1{
+        gap:18px;
+    }
+    .partners{
+        width: 100vh;
+        gap: 12px;
+    }
+    .partners img{
+        width:60px;
+    }
+    .globe img{
+        width: 400px;
+    }
+    .appointment{
+        width: 100vh;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:551px) and (max-width:768px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    .content{
+        border: 1px solid greenyellow;
+    }
+    .navb{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: flex-start;
+        gap:0px;
+    }
+    .tocenter, .toright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 0px;
+    }
+    .toright button{
+       justify-content: right;
+       width:90px;
+       align-items: flex-end;
+    }
+
+    .info{
+        width: 100vh
+    }
+    .cards{
+        width: 100vh;
+        position: static;
+    }
+    .cards1{
+        width:100vh;
+        margin-top: 30px;
+    
+    }
+    .greybg{
+        width:100vh;
+        margin-top: 80px;
+    }
+    .greybg .reviews{
+        width:100vh;
+        gap:9px;
+    }
+    .partners{
+        width: 100vh;
+        gap: 4.5px;
+    }
+    .partners img{
+        width:75px;
+    }
+    .lastlast, .moreinfo{
+        width:100vh;
+    }
+    .appointment{
+        width: 100vh;
+        margin-left: 0px;
+    }
+    footer{
+        width: 100vh;
+    }
+    .branches{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+    .globe img{
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width:550px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .navb{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: flex-start;
+        gap:0px;
+    }
+    .tocenter, .toright{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 0px;
+    }
+    .toright button{
+       width:90px;
+    }
+
+    .info{
+        width: 100vh;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+    .cards1{
+        display: flex;
+        flex-direction: column;
+        width:100vh;
+        margin-top: 30px;
+        
+    }
+    .greybg{
+        display: flex;
+        flex-direction: column;
+        width:100vh;
+        margin-top: 80px;
+    }
+    .greybg .reviews{
+        display: flex;
+        flex-direction: column;
+        width:100vh;
+        gap:9px;
+    }
+    .partners{
+        width: 95vh;
+        gap: 4.5px;
+    }
+    .partners img{
+        width:75px;
+    }
+    .packages{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing, .lastlast, .moreinfo{
+        display: flex;
+        flex-direction: column;
+        width:100vh;
+    }
+    .appointment{
+        width: 90vh;
+        margin-left: 0px;
+    }
+    footer{
+        width: 100vh;
+    }
+    .bbranches{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+    .globe img{
+        width: 200px;
+
+    }
+    
+}
